@@ -15,6 +15,19 @@ twitter4j:
        consumer-secret: --your key ---
 ```
 
+Also the DB config params:
+
+```
+spring:
+     datasource:
+       url: -- database UR
+       username: -- database user
+       password: -- database pswd
+       driverClassName: com.mysql.cj.jdbc.Driver
+```
+
+For security reasons they are not on the source code
+
 Swagger will guide the input parameters for the services
 
 To run the project open the console and use:

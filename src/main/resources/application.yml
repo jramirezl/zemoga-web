@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: 'jdbc:mysql://zemoga-test-db.crhpedy9xxto.us-east-1.rds.amazonaws.com:3306/zemoga_test_db'
-    username: zemoga_test_db
-    password: Zem0ga.101
+    url: -- database UR
+    username: -- database user
+    password: -- database pswd
     driverClassName: com.mysql.cj.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQL5Dialect
