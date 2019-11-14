@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    url: 'jdbc:mysql://zemoga-test-db.crhpedy9xxto.us-east-1.rds.amazonaws.com:3306/zemoga_test_db'
+    username: zemoga_test_db
+    password: Zem0ga.101
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate: {show_sql: true, use_sql_comments: true, format_sql: true}
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+twitter4j:
+  oauth:
+    access-token: 438584270-Vfdui1ZgZhFUm1Q5JlG7oRbcp2ZqfHquuFC8GYEN
+    access-token-secret: h9GdJL4g7QZbpuan7OL3hU1iiZfeuG9KdUceHSCwXfuEV
+    consumer-key: hiB7Ud12FH6O94b0CH8uk4bvk
+    consumer-secret: ETMx3ooLs0RMxy4Esm9dDmVBSoMMidHO9SgJt0yVfUoA6P9nC0
+cloud:
+  aws:
+    region:
+      static: us-east-1

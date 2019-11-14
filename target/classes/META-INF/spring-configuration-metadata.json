@@ -1,0 +1,25 @@
+{
+  "groups": [
+    {
+      "name": "twitter4j",
+      "type": "com.zamoga.portafolioweb.twitter.util.Twitter4jProperties",
+      "sourceType": "com.zamoga.portafolioweb.twitter.util.Twitter4jProperties"
+    },
+    {
+      "name": "twitter4j.oauth",
+      "type": "com.zamoga.portafolioweb.twitter.util.Twitter4jProperties$OAuth",
+      "sourceType": "com.zamoga.portafolioweb.twitter.util.Twitter4jProperties",
+      "sourceMethod": "getOauth()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "twitter4j.debug",
+      "type": "java.lang.Boolean",
+      "description": "Enables deubg output. Effective only with the embedded logger.",
+      "sourceType": "com.zamoga.portafolioweb.twitter.util.Twitter4jProperties",
+      "defaultValue": false
+    }
+  ],
+  "hints": []
+}
